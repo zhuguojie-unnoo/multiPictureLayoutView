@@ -1,0 +1,35 @@
+{
+  "images" : [
+    {
+      "resizing" : {
+        "mode" : "9-part",
+        "center" : {
+          "mode" : "tile",
+          "width" : 11,
+          "height" : 13
+        },
+        "cap-insets" : {
+          "bottom" : 462,
+          "top" : 469,
+          "right" : 306,
+          "left" : 312
+        }
+      },
+      "idiom" : "universal",
+      "filename" : "00启动登录-启动页4s.png",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
