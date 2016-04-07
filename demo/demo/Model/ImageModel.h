@@ -12,10 +12,10 @@
 
 @interface ImageModel : NSObject
 
-@property (nonatomic, strong) NSString *imageUrl;
+@property(nonatomic,strong) NSString *imageUrl;
 
-@property (nonatomic, assign) CGFloat height;
+@property(nonatomic,assign) CGFloat height;
 
-@property (nonatomic, assign) CGFloat width;
+@property(nonatomic,assign) CGFloat width;
 
 @end

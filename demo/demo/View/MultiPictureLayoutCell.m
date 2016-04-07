@@ -24,6 +24,7 @@
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     
     if (self) {
+        
         //  添加多图控件到 cell 上
         self.selectionStyle = UITableViewCellSelectionStyleNone;
         
@@ -38,6 +39,7 @@
 - (void)layoutSubviews
 {
     [super layoutSubviews];
+    
     //  设置多图控件的 frame
     _multiPictureLayoutView.frame = self.bounds;
     _multiPictureLayoutView.pictures = _pictures;
@@ -52,6 +54,7 @@
 - (void)prepareForReuse
 {
     [super prepareForReuse];
+    
     //  cell 重用时清空数据
     [_multiPictureLayoutView free];
 }

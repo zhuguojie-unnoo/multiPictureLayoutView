@@ -19,6 +19,7 @@
     BOOL _isInited;
     NSMutableArray *_imageViewArray;
 }
+
 @end
 
 
@@ -89,6 +90,7 @@
     }
     
     _isInited = YES;
+    
     //  以下代码为计算 imageView 的布局
     NSInteger count = _pictures.count;
     NSArray *imagesFrameArray = [[self class] layoutSubviewsCustoms:count withItemWidth:width];
